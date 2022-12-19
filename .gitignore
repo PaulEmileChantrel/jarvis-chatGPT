@@ -1,3 +1,4 @@
 jenv
 __pycache__
 save_api_key.py
+config.py

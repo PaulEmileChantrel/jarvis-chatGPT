@@ -4,11 +4,11 @@ import openai
 
 def chatGPT(input_text):
     # Set the API key
-    openai.api_key = os.environ['OPENAI_API_KEY']
+    openai.api_key = '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'#os.environ['OPENAI_API_KEY']
 
 
     # Set the model ID
-    model = 'text-davinci-002'
+    model = 'text-davinci-003'
 
     # Set the input text
     #input_text = 'Hello, how are you today?'

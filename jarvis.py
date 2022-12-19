@@ -1,6 +1,7 @@
-from openai_api import *
-from text_to_speech import *
-from speech_to_text import *
+from openai_api import chatGPT
+from text_to_speech import txt_to_sp
+from speech_to_text import sp_to_txt
+from text_to_speech_microsoft import text_to_speech_ms
 
 # Record audio and turn it to text
 print('Type enter once you finish to record.')
@@ -14,4 +15,4 @@ text = chatGPT(input_text)
 #Turn ChatGPT output text into speech
 print(f'Here is the response :')
 print(text)
-txt_to_sp(text)
+text_to_speech_ms(text)

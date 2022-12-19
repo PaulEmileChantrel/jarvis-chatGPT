@@ -1,10 +1,10 @@
 import os
 import openai
-
+from config import open_ai_api_key
 
 def chatGPT(input_text):
     # Set the API key
-    openai.api_key = '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'#os.environ['OPENAI_API_KEY']
+    openai.api_key = open_ai_api_key
 
 
     # Set the model ID
